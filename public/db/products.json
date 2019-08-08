@@ -1,0 +1,104 @@
+{
+    "products":[
+        {
+            "id": 1001,
+            "title": "Allosaurus",
+            "description": "\tAllosaurus is a genus of carnivorous dinosaurs from the allosaurid family of the theropod suborder. He lived in the Jurassic period: Cimmeridge - an early titon, about 155-145 million years ago.\n\tAllosaurs are predators, move on powerful hind legs, while the front limbs are relatively small, they have three large, bent claws. Allosaurus is a large predator with a large skull, equipped with dozens of large sharp teeth. Representatives of the type species, Allosaurus fragilis, reach an average of 8.5 meters in length, 3.5 meters in height and weigh more than one and a half tons, although large individuals can reach 11 meters in length and weigh more than 4 tons. The massive skull is balanced by a long, heavy tail.\n\tAllosaurus remains are known from North America, Southern Europe and East Africa.",
+            "price": 2000,
+            "image": "images/products/allosaurus.jpg",
+            "availableInventory": 10,
+            "rating": 1,
+            "class": "predator"
+        },
+        {
+            "id": 1002,
+            "title": "Ankylosaurus", 
+            "description": "Ankylosaurus is a genus of herbivorous reptiles from the supernumerary dinosaurs of the ankylosauri family. The genus is monotypic, as it includes only one species known to science - Ankylosaurus magniventris. The fossilized remains of ankylosaurus were found in geological formations dating from the most recent era of the Cretaceous (66.5-66 million years ago) in the west of the North American continent.\n\tIt is ankylosaurus that is considered to be an archetype of an armor-clad dinosaur. Moreover, it is one of the most famous dinosaurs. Other ankylosaurids have similar features: a body covered with powerful, heavy armor, and a massive thickening, a kind of “club” on the tail. Ankylosaurus is one of the largest ankylosaurids.\n\tAnkylosaurus has a very wide, squat, stocky body. It is four-legged, hind limbs longer than the front. Representatives of this species have five fingers on each foot. Due to the length of its stride, this reptile can move at a sufficiently high speed.\n\tThe length of about 8 meters weight 4.78 tons.",
+            "price": 299,
+            "image": "images/products/ankylosaurus.jpg",
+            "availableInventory": 7,
+            "rating": 5,
+            "class": "herbivorous"
+        },
+        {
+            "id": 1003,
+            "title": "Apatozavr",
+            "description": "Apatozavr is a genus of lizard dinosaurs that lived during the Upper Jurassic era (157.3-145.0 million years ago) in the territory of the modern USA. One of the largest representatives of the sauropod. Also known as Brontosaurus.\n\tApatosaurus - one of the largest dinosaurs: its length can reach 20-23 meters, and the mass, according to various sources, up to 24-32 tons. The apatosaur is characterized by a long tail and neck, massive legs, and a relatively small head at the end of the neck. His brain weighs only 400 grams.",
+            "price": 1100,
+            "image": "images/products/apatosaurus.jpg",
+            "availableInventory": 99,
+            "rating": 4,
+            "class": "herbivorous"
+        },
+        {
+            "id": 1004,
+            "title": "Diplodocus",
+            "description": "Diplodocus, or dupes, is a genus of lizard-dinosaurs from the sauropod group. The first petrified skeleton was found in 1877 in the Rocky Mountains (Colorado). Rhode lived during the Jurassic period in western North America.\n\tThis is one of the real giants of the late Jurassic period. Diplodocus reaches an average length of 27 meters, the size of the largest individuals can reach 35 meters. Of these, the majority fell on the neck and tail. According to some estimates, the weight of diplodocus varies depending on the size from 30 to 80 tons. There were dinosaurs larger than a diplodocus, for example, a superzavr. However, their sale is not possible at the moment.",
+            "price": 799,
+            "image": "images/products/diplodocus.jpg",
+            "availableInventory": 11,
+            "rating": 5,
+            "class": "herbivorous"
+        },
+        {
+            "id": 1005,
+            "title": "Pterodactyls",
+            "description": "Pterodactyls are a genus of pterosaurs, the fossil remains of which were found mainly in Germany's Solnhofen limestones, which date from the end of the Jurassic period (early titon), 152.1-145 million years ago.\n\tPterodactyls are carnivorous pterosaurs and prey primarily on fish and small animals. Like all pterosaurs, pterodactyls have wings formed by a skin-muscle membrane, which extends from the elongated fourth finger of the wing to the hind limbs. Inside the membrane is supported by collagen fibers, and outside by keratin ridges. The wingspan of an adult individual reaches 1 m.\n\tPterodactyls are diurnal and share an ecological niche with nocturnal pterosaurs, such as ctenochasms and ramphorinha.\n\tPterodactylus antiquus is the first flying reptile.",
+            "price": 799,
+            "image": "images/products/ptero.jpg",
+            "availableInventory": 6,
+            "rating": 5,
+            "class": "predator"
+        },
+        {
+            "id": 1006,
+            "title": "Spinosaurus",
+            "description": "Spinosaurus is a member of the Spinosaurid family (Spinosauridae), living on the territory of modern North Africa in the Cretaceous period (112–93.5 million years ago).\n\tHe has one of the longest skulls among all carnivorous dinosaurs, reaching more than 1.5 meters in length. The skull has a narrow muzzle with jaws filled with straight cone-shaped teeth. The largest known specimen of Spinosaurus had impressive dimensions of about 15 meters in length and weighing about 11.7–16.7 tons, since its bones have relatively small cavities.\n\tOne of the distinguishing features of Spinosaurus is its spine. The processes of the dorsal and caudal vertebrae, with their size and shape, form a kind of “sail”. The purpose of the 'sail' is its role as a hydro stabilizer.",
+            "price": 799,
+            "image": "images/products/spinosaurus.jpg",
+            "availableInventory": 5,
+            "rating": 4,
+            "class": "predator"
+        },
+        {
+            "id": 1007,
+            "title": "Stegosaurus",
+            "description": "Stegosaurus is a genus of the Late Jurassic herbivorous dinosaurs, which existed 155-145 million years ago (Cimmerian tier). In its composition there are three types. Thanks to the spikes on the tail and the bone plates on the back are some of the most recognizable dinosaurs.\n\t Stegosaurs were the largest representatives of their infraorder, which also included the genera Kentrosaurus and Huayangosaurus. Their maximum length is 9 meters, height - 4 meters. The brain of a dinosaur is no more than that of a dog: when the animal weighs 2 tons, its brain weighs only 70 grams.",
+            "price": 799,
+            "image": "images/products/stegosaurus.jpg",
+            "availableInventory": 12,
+            "rating": 3,
+            "class": "herbivorous"
+        },
+        {
+            "id": 1008,
+            "title": "Tyrannosaurus",
+            "description": "Tyrannosaurus is a monotypic genus of carnivorous dinosaurs from the celurosaurus group of the Theropod suborder, including the only valid species, Tyrannosaurus rex. It lived in the western part of North America, which at that time was the island of Laramidia, and was the most common of tyrannosaurids. It was one of the last lizard-dinosaurs that existed before the cataclysm, which put an end to the era of dinosaurs (Cretaceous-Paleogene extinction).\n\t Like other members of their family, the Tyrannosaurus is a two-legged predator with a massive skull, which is balanced by a long, heavy and rigid tail. Compared with the large and powerful hind limbs of this pangolin, its front legs are very small, but unusually powerful for its size, and have two clawed toes. It is the largest species of its family, one of the largest representatives of theropods and one of the largest land predators in the entire history of the Earth. Tyrannosaurus predator-opportunist - can both hunt and eat carrion.",
+            "price": 799,
+            "image": "images/products/trex.jpg",
+            "availableInventory": 3,
+            "rating": 5,
+            "class": "predator"
+        },
+        {
+            "id": 1009,
+            "title": "Triceratops",
+            "description": "Triceratops, a genus of herbivorous dinosaurs from the ceratopsid family, existed at the end of the Maastricht century of the Cretaceous and the beginning of the Paleocene epoch of the Paleogene, approximately 68 to 66 million years ago in the territories of modern North America. With a large bone collar, three horns on the muzzle, large thick limbs and a body similar to a rhinoceros, Triceratops are among the most recognizable dinosaurs. Perhaps the most dangerous predator of the time - Tyrannosaurus - could hunt Triceratops.\n\t Adults of Triceratops on average reach approximately 6.7–7.6 meters in length, although very large individuals can be up to 8–9 meters in length, 2.5–3.0 meters in height, and weigh from 7.5 to 12 tons.",
+            "price": 799,
+            "image": "images/products/tricer.jpg",
+            "availableInventory": 1,
+            "rating": 4,
+            "class": "herbivorous"
+        },
+        {
+            "id": 1010,
+            "title": "Velociraptor",
+            "description": "Velociraptor is a genus of carnivorous bipedal dinosaurs from the dromaeosaurid family, the subfamily Velociraptorin. Type species - Velociraptor mongoliensis. He lived at the end of the Cretaceous, 83-70 million years ago. The velociraptor is much smaller than the largest representatives of its subfamily: the dacotaptor, the uataraptor, and the achillobator - but it also has a number of progressive anatomical features.\n\t The velociraptor is a small dinosaur, up to 1.8 m in length, 60–70 cm in height, and weighs about 20 kg.\n\t Velociraptor, uses only two fingers when walking: the third and fourth. On the second was a large, strongly curved claw, growing to 67 mm in length. Velociraptor does not use these claws as blades (since their inner curved edge is rounded, and the sharp tip does not penetrate the animal's skin, but only pierces it); they serve as hooks with which the predator clings to its prey and holds it, sometimes even piercing the trachea or the cervical artery to the animal.",
+            "price": 4999,
+            "image": "images/products/velocer.jpg",
+            "availableInventory": 25,
+            "rating": 4,
+            "class": "predator"
+        }
+    ]
+}
