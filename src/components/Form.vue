@@ -104,11 +104,15 @@
             </pre>
 
         </div>
+
+        <my-footer></my-footer>
+
     </div>
 </template>
 
 <script>
 import MyHeader from './Header.vue';
+import MyFooter from './Footer.vue';
 
 export default {
     name: 'Form',
@@ -137,7 +141,7 @@ export default {
             }
         }
     },
-    components: { MyHeader },
+    components: { MyHeader, MyFooter },
     methods: {
         submitForm() {
             alert('Submitted')

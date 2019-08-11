@@ -16,7 +16,7 @@
 
             </section>   
 
-            <div>
+            <div class="product__wrapper">
                 <figure>
                     <img :src="product.image" 
                         class="photo"
@@ -46,11 +46,14 @@
             </div>
         </main>
 
+        <my-footer></my-footer>
+
     </div>
 </template>
 
 <script>
 import MyHeader from './Header.vue';
+import MyFooter from './Footer.vue';
 import axios from 'axios';
 
 export default {
@@ -59,7 +62,7 @@ export default {
             product: {}
         }
     },
-    components: { MyHeader },
+    components: { MyHeader, MyFooter },
     filters: {
         formatPrice: function(price) {
             if(!parseInt(price)) { return ''; }
@@ -107,16 +110,28 @@ h2 {
 
 h4 {
     margin-left: 20px;
+    font-size: 25px;
+}
+
+p {
+    line-height: 23px;
     font-size: 17px;
 }
 
-figure { margin: 0; }
+figure { 
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin: 27px 25px;
+    shape-outside: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+}
 
 .row { align-items: baseline; }
 
 .photo {
     width: 100%;
-    max-height: 380px; 
+    max-height: 300px; 
 }
 
 .price { justify-content: flex-start; }
@@ -126,6 +141,12 @@ figure { margin: 0; }
 .product__desc-col {
     max-width: 700px;
     margin: 0 auto;
+}
+
+.product__wrapper {
+    padding-bottom: 25px;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 </style>

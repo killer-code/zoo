@@ -4,6 +4,7 @@ import Main    from '@/components/Main'
 import Form    from '@/components/Form'
 import Product from '@/components/Product'
 import Home    from '@/components/Home'
+import ERR404  from '@/components/ERR404' 
 import EditProduct from '@/components/EditProduct'
 
 Vue.use(Router)
@@ -45,8 +46,13 @@ export default new Router({
       props: true
     },
     {
+      path: '/err404',
+      name: 'err404',
+      component: ERR404
+    },
+    {
       path: '*',
-      redirect: '/'
+      redirect: '/err404'
     }
   ]
 })

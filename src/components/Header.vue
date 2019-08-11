@@ -8,7 +8,7 @@
 
                     <div class="head-title logo">
                         <router-link :to="{name: 'iMain'}">
-                            <img src="images/logo.svg" alt="" height="60px">
+                            <img src="/images/logo.svg" alt="" height="60px">
                         </router-link>
                         <small>DinoStore</small>
                     </div>
