@@ -39,6 +39,7 @@ em {
 .header_green {
     background-color: #00FE32;
     border: solid 1px #00F330;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
     padding: 5px 50px;
 }
 
