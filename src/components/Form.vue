@@ -95,15 +95,17 @@
 
             </form>
 
-            <pre>
-                First Name: {{ order.firstName }}
-                Last Name:  {{ order.lastName }}
-                Email:      {{ order.userEmail }}
-                City:       {{ order.userCity }}
-                Zip:        {{ order.userZip }}
-                State:      {{ order.userState }}
-                Gift:       {{ order.gift }}
-                Method:     {{ order.method }}
+            <pre class="information">
+                <ul class="information__list">
+                    <li class="information__item">First Name: <spam>{{ order.firstName }}</spam></li>
+                    <li class="information__item">Last Name:  <spam>{{ order.lastName }}</spam></li>
+                    <li class="information__item">Email:      <spam>{{ order.userEmail }}</spam></li>
+                    <li class="information__item">City:       <spam>{{ order.userCity }}</spam></li>
+                    <li class="information__item">Zip:        <spam>{{ order.userZip }}</spam></li>
+                    <li class="information__item">State:      <spam>{{ order.userState }}</spam></li>
+                    <li class="information__item">Gift:       <spam>{{ order.gift }}</spam></li>
+                    <li class="information__item">Method:     <spam>{{ order.method }}</spam></li>
+                </ul>    
             </pre>
 
         </div>
@@ -225,6 +227,33 @@ export default {
     box-shadow:0px 0px 22px 14px rgba(206,214,248,0.68)inset;
     -webkit-box-shadow:0px 0px 22px 14px rgba(206,214,248,0.68)inset;
     -moz-box-shadow:0px 0px 22px 14px rgba(206,214,248,0.68)inset;
+}
+
+.information {
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    max-width: 400px;
+    min-width: 280px;
+    margin: 10px auto;
+    padding: 15px 7px;
+}
+
+.information__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information__item {
+    margin: 0;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    border-bottom: 1px solid #001c42;
 }
 
 </style>
