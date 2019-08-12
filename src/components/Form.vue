@@ -97,14 +97,14 @@
 
             <pre class="information">
                 <ul class="information__list">
-                    <li class="information__item">First Name: <spam>{{ order.firstName }}</spam></li>
-                    <li class="information__item">Last Name:  <spam>{{ order.lastName }}</spam></li>
-                    <li class="information__item">Email:      <spam>{{ order.userEmail }}</spam></li>
-                    <li class="information__item">City:       <spam>{{ order.userCity }}</spam></li>
-                    <li class="information__item">Zip:        <spam>{{ order.userZip }}</spam></li>
-                    <li class="information__item">State:      <spam>{{ order.userState }}</spam></li>
-                    <li class="information__item">Gift:       <spam>{{ order.gift }}</spam></li>
-                    <li class="information__item">Method:     <spam>{{ order.method }}</spam></li>
+                    <li class="information__item">First Name: <span>{{ order.firstName }}</span></li>
+                    <li class="information__item">Last Name:  <span>{{ order.lastName }}</span></li>
+                    <li class="information__item">Email:      <span>{{ order.userEmail }}</span></li>
+                    <li class="information__item">City:       <span>{{ order.userCity }}</span></li>
+                    <li class="information__item">Zip:        <span>{{ order.userZip }}</span></li>
+                    <li class="information__item">State:      <span>{{ order.userState }}</span></li>
+                    <li class="information__item">Gift:       <span>{{ order.gift }}</span></li>
+                    <li class="information__item">Method:     <span>{{ order.method }}</span></li>
                 </ul>    
             </pre>
 
